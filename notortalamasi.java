@@ -7,22 +7,22 @@ public class notortalamasi {
 
         int mat, fizik, kimya, turkce, tarih, muzik;
 
-        System.out.println("Matematik Notunuz : ");
+        System.out.print("Matematik Notunuz : ");
         mat = scanner.nextInt();
 
-        System.out.println("Fizik Notunuz : ");
+        System.out.print("Fizik Notunuz : ");
         fizik = scanner.nextInt();
 
-        System.out.println("Kimya Notunuz : ");
+        System.out.print("Kimya Notunuz : ");
         kimya = scanner.nextInt();
 
-        System.out.println("Turkce Notunuz : ");
+        System.out.print("Turkce Notunuz : ");
         turkce = scanner.nextInt();
 
-        System.out.println("Tarih Notunuz : ");
+        System.out.print("Tarih Notunuz : ");
         tarih = scanner.nextInt();
 
-        System.out.println("Muzik Notunuz : ");
+        System.out.print("Muzik Notunuz : ");
         muzik = scanner.nextInt();
 
         int ortalama = mat + fizik + kimya + turkce + tarih + muzik;
@@ -33,10 +33,10 @@ public class notortalamasi {
 
         if (ort >= 60)
         {
-            System.out.println("Sınıfı Geçtiniz");
+            System.out.print("Sınıfı Geçtiniz !");
         }else
         {
-            System.out.println("Sınıfta Kaldınız");
+            System.out.print("Sınıfta Kaldınız !");
         }
         
         
