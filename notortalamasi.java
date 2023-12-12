@@ -40,6 +40,6 @@ public class notortalamasi {
         }
         
         
-
+        scanner.close();
     }
 }
